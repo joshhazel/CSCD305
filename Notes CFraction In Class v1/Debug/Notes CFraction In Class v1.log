@@ -1,0 +1,11 @@
+﻿Build started 2/17/2012 6:56:09 AM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes CFraction In Class v1\Notes CFraction In Class v1.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Notes CFraction In Class v1.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\Notes CFraction In Class v1.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CFraction.cpp main.cpp
+         main.cpp
+         CFraction.cpp
+         Generating Code...

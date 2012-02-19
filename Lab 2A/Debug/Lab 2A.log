@@ -1,0 +1,18 @@
+﻿Build started 2/17/2012 6:56:12 AM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Lab 2A\Lab 2A.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Lab 2A.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\Lab 2A.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt lab2a.cpp lab2a_implement.cpp
+         lab2a_implement.cpp
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2a\lab2a_implement.cpp(9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2a\lab2a.h(11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2a\lab2a.h(12): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2a\lab2a.h(13): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2a\lab2a.h(14): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2a\lab2a.h(15): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         lab2a.cpp
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2a\lab2a.cpp(10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2a\lab2a.h(11): warning C4067: unexpected tokens following preprocessor directive - expected a newline

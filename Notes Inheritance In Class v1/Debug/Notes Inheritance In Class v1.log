@@ -1,0 +1,111 @@
+﻿Build started 2/17/2012 8:21:29 AM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes Inheritance In Class v1\Notes Inheritance In Class v1.vcxproj" on node 5 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Notes Inheritance In Class v1.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\Notes Inheritance In Class v1.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Base.cpp Derived.cpp main.cpp
+         main.cpp
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(12): error C2061: syntax error : identifier 'ostream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C2143: syntax error : missing ';' before '&'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C2433: 'ostream' : 'friend' not permitted on data declarations
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C2061: syntax error : identifier 'ostream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C2805: binary 'operator <<' has too few parameters
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.h(20): error C2061: syntax error : identifier 'ostream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.h(23): error C2143: syntax error : missing ';' before '&'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.h(23): error C2433: 'ostream' : 'friend' not permitted on data declarations
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.h(23): error C2061: syntax error : identifier 'ostream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.h(23): error C2805: binary 'operator <<' has too few parameters
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(12): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(13): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(14): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(15): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(17): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(17): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(17): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(19): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(22): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(22): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(22): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(24): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(27): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(27): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(27): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(29): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(32): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(32): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(32): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(34): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(37): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(37): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(37): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(39): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(41): error C2065: 'string' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(41): error C2146: syntax error : missing ';' before identifier 'exit'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(41): error C2065: 'exit' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(41): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(41): error C2065: 'cin' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(41): error C2065: 'exit' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\main.cpp(41): error C3861: 'getline': identifier not found
+         Derived.cpp
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(12): error C2061: syntax error : identifier 'ostream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C2143: syntax error : missing ';' before '&'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C2433: 'ostream' : 'friend' not permitted on data declarations
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C2061: syntax error : identifier 'ostream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C2805: binary 'operator <<' has too few parameters
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.h(20): error C2061: syntax error : identifier 'ostream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.h(23): error C2143: syntax error : missing ';' before '&'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.h(23): error C2433: 'ostream' : 'friend' not permitted on data declarations
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.h(23): error C2061: syntax error : identifier 'ostream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.h(23): error C2805: binary 'operator <<' has too few parameters
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.cpp(12): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.cpp(12): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.cpp(16): error C2065: 'out' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.cpp(17): error C2448: 'Derived::print' : function-style initializer appears to be a function definition
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.cpp(26): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.cpp(26): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.cpp(30): error C2143: syntax error : missing ';' before '&'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.cpp(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.cpp(30): error C2086: 'int ostream' : redefinition
+                 c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15) : see declaration of 'ostream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.cpp(30): error C2065: 'out' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.cpp(30): error C2059: syntax error : 'const'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.cpp(31): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\derived.cpp(31): error C2447: '{' : missing function header (old-style formal list?)
+         Base.cpp
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(12): error C2061: syntax error : identifier 'ostream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C2143: syntax error : missing ';' before '&'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C2433: 'ostream' : 'friend' not permitted on data declarations
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C2061: syntax error : identifier 'ostream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15): error C2805: binary 'operator <<' has too few parameters
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.cpp(12): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.cpp(12): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.cpp(15): error C2065: 'out' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.cpp(16): error C2448: 'Base::print' : function-style initializer appears to be a function definition
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.cpp(22): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.cpp(22): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.cpp(26): error C2143: syntax error : missing ';' before '&'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.cpp(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.cpp(26): error C2086: 'int ostream' : redefinition
+                 c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.h(15) : see declaration of 'ostream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.cpp(26): error C2065: 'out' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.cpp(26): error C2059: syntax error : 'const'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.cpp(27): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes inheritance in class v1\base.cpp(27): error C2447: '{' : missing function header (old-style formal list?)
+         Generating Code...
+     1>Done Building Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes Inheritance In Class v1\Notes Inheritance In Class v1.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.20

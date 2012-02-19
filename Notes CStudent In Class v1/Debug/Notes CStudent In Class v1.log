@@ -1,0 +1,30 @@
+﻿Build started 2/17/2012 6:56:09 AM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes CStudent In Class v1\Notes CStudent In Class v1.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Notes CStudent In Class v1.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\Notes CStudent In Class v1.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CStudent.cpp main.cpp
+         main.cpp
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes cstudent in class v1\cstudent.h(17): error C2039: 'main_id' : is not a member of 'CStudent'
+                 c:\users\josh\documents\visual studio 2010\projects\cscd305\notes cstudent in class v1\cstudent.h(7) : see declaration of 'CStudent'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes cstudent in class v1\cstudent.h(18): error C2166: l-value specifies const object
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes cstudent in class v1\main.cpp(12): error C3861: 'swapByPoint': identifier not found
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes cstudent in class v1\main.cpp(13): error C2065: 'count' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes cstudent in class v1\main.cpp(17): error C2065: 'count' : undeclared identifier
+         CStudent.cpp
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes cstudent in class v1\cstudent.h(17): error C2039: 'main_id' : is not a member of 'CStudent'
+                 c:\users\josh\documents\visual studio 2010\projects\cscd305\notes cstudent in class v1\cstudent.h(7) : see declaration of 'CStudent'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes cstudent in class v1\cstudent.h(18): error C2166: l-value specifies const object
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes cstudent in class v1\cstudent.cpp(11): error C2143: syntax error : missing ';' before 'CStudent::{ctor}'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes cstudent in class v1\cstudent.cpp(11): error C2761: '{ctor}' : member function redeclaration not allowed
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes cstudent in class v1\cstudent.cpp(11): error C2511: 'CStudent::CStudent(void)' : overloaded member function not found in 'CStudent'
+                 c:\users\josh\documents\visual studio 2010\projects\cscd305\notes cstudent in class v1\cstudent.h(7) : see declaration of 'CStudent'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes cstudent in class v1\cstudent.cpp(87): fatal error C1004: unexpected end-of-file found
+         Generating Code...
+     1>Done Building Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes CStudent In Class v1\Notes CStudent In Class v1.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.50

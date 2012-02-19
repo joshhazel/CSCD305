@@ -1,0 +1,86 @@
+﻿Build started 2/17/2012 6:56:05 AM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes Online CFraction\Notes Online CFraction.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Notes Online CFraction.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\Notes Online CFraction.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CFraction.cpp FractionTester.cpp
+         FractionTester.cpp
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(14): error C2143: syntax error : missing ';' before '&'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(14): error C2433: 'ostream' : 'friend' not permitted on data declarations
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(14): error C2061: syntax error : identifier 'ostream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(14): error C2805: binary 'operator <<' has too few parameters
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(15): error C2143: syntax error : missing ';' before '&'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(15): error C2433: 'istream' : 'friend' not permitted on data declarations
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(15): error C2061: syntax error : identifier 'istream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(15): error C2805: binary 'operator >>' has too few parameters
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(11): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(11): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(14): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(14): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(16): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(16): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(17): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(17): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(18): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(18): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(19): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(19): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(20): error C2065: 'cout' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(20): error C2065: 'endl' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(22): error C2065: 'string' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(22): error C2146: syntax error : missing ';' before identifier 'ch'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(22): error C2065: 'ch' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(23): error C2065: 'cin' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(23): error C2065: 'ch' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\fractiontester.cpp(23): error C3861: 'getline': identifier not found
+         CFraction.cpp
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(14): error C2143: syntax error : missing ';' before '&'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(14): error C2433: 'ostream' : 'friend' not permitted on data declarations
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(14): error C2061: syntax error : identifier 'ostream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(14): error C2805: binary 'operator <<' has too few parameters
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(15): error C2143: syntax error : missing ';' before '&'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(15): error C2433: 'istream' : 'friend' not permitted on data declarations
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(15): error C2061: syntax error : identifier 'istream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(15): error C2805: binary 'operator >>' has too few parameters
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(17): error C2065: 'NULL' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(20): error C2065: 'NULL' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(24): error C2065: 'NULL' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(27): error C2065: 'NULL' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(36): error C2065: 'NULL' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(39): error C2065: 'NULL' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(43): error C2065: 'NULL' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(46): error C2065: 'NULL' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(84): error C2143: syntax error : missing ';' before '&'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(84): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(84): error C2086: 'int ostream' : redefinition
+                 c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(14) : see declaration of 'ostream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(84): error C2065: 'out' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(84): error C2059: syntax error : 'const'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(85): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(85): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(92): error C2143: syntax error : missing ';' before '&'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(92): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(92): error C2086: 'int istream' : redefinition
+                 c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(15) : see declaration of 'istream'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(92): error C2065: 'in' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(92): error C2065: 'rhs' : undeclared identifier
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(92): error C2275: 'CFraction' : illegal use of this type as an expression
+                 c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.h(3) : see declaration of 'CFraction'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(92): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online cfraction\cfraction.cpp(92): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         Generating Code...
+     1>Done Building Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes Online CFraction\Notes Online CFraction.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.43

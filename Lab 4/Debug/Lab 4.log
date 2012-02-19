@@ -1,0 +1,10 @@
+﻿Build started 2/17/2012 8:21:29 AM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Lab 4\Lab 4.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Lab 4.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\Lab 4.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Grad.cpp InheritanceTester.cpp Student.cpp
+         Student.cpp
+         InheritanceTester.cpp
