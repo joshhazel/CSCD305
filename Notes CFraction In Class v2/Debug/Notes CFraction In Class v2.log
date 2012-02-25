@@ -1,25 +1,14 @@
-﻿Build started 2/17/2012 6:56:08 AM.
-     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes CFraction In Class v2\Notes CFraction In Class v2.vcxproj" on node 5 (rebuild target(s)).
+﻿Build started 2/23/2012 9:49:56 PM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes CFraction In Class v2\Notes CFraction In Class v2.vcxproj" on node 2 (rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "Debug\Notes CFraction In Class v2.lastbuildstate".
        InitializeBuildStatus:
-         Creating "Debug\Notes CFraction In Class v2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\Notes CFraction In Class v2.unsuccessfulbuild".
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CFraction.cpp main.cpp
          main.cpp
-         CFraction.cpp
-         Generating Code...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Notes CFraction In Class v2.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Notes CFraction In Class v2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Notes CFraction In Class v2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Notes CFraction In Class v2.lib" /MACHINE:X86 Debug\CFraction.obj
-         Debug\main.obj
-         Notes CFraction In Class v2.vcxproj -> C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Notes CFraction In Class v2.exe
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Notes CFraction In Class v2.exe;#1" /manifest "Debug\Notes CFraction In Class v2.exe.intermediate.manifest"
-       FinalizeBuildStatus:
-         Deleting file "Debug\Notes CFraction In Class v2.unsuccessfulbuild".
-         Touching "Debug\Notes CFraction In Class v2.lastbuildstate".
-     1>Done Building Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes CFraction In Class v2\Notes CFraction In Class v2.vcxproj" (rebuild target(s)).
+     1>Done Building Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes CFraction In Class v2\Notes CFraction In Class v2.vcxproj" (rebuild target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:04.44
+Time Elapsed 00:00:00.45

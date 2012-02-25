@@ -1,27 +1,16 @@
-﻿Build started 2/17/2012 6:56:10 AM.
-     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Lab 2B\Lab 2B.vcxproj" on node 4 (rebuild target(s)).
+﻿Build started 2/23/2012 7:39:38 PM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Lab 2B\Lab 2B.vcxproj" on node 5 (rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "Debug\Lab 2B.lastbuildstate".
        InitializeBuildStatus:
-         Touching "Debug\Lab 2B.unsuccessfulbuild".
+         Creating "Debug\Lab 2B.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt customer.cpp lab2b.cpp lab2b_implement.cpp
          lab2b_implement.cpp
      1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2b\lab2b_implement.cpp(10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
      1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2b\lab2b.h(11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2b\lab2b.h(12): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2b\lab2b.h(13): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2b\lab2b.h(14): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2b\lab2b.h(15): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-         lab2b.cpp
-     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2b\lab2b.cpp(10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2b\lab2b.h(11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2b\lab2b.h(12): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2b\lab2b.h(13): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2b\lab2b.h(14): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2b\lab2b.h(15): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2b\lab2b.cpp(11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2b\customer.h(11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-         customer.cpp
-     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2b\customer.h(11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 2b\lab2b.h(11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>Done Building Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Lab 2B\Lab 2B.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.93

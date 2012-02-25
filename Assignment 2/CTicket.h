@@ -12,7 +12,7 @@ public:
 	CTicket(ifstream & in);
 	virtual ~CTicket(void);
 
-	virtual void Print(ostream& out);//const;
+	void Print(ostream& out);//const;
 	friend ostream & operator <<(ostream & Out, const Time & T);
 
 	static void SetNumber(int N) {m_NextNumber = N;}

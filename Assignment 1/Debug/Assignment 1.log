@@ -1,13 +1,9 @@
-﻿Build started 2/17/2012 7:07:49 AM.
+﻿Build started 2/24/2012 9:09:43 PM.
      1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Assignment 1\Assignment 1.vcxproj" on node 4 (rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "Debug\Assignment 1.lastbuildstate".
-       InitializeBuildStatus:
-         Creating "Debug\Assignment 1.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CHugeInt.cpp main.cpp
-         main.cpp
-         CHugeInt.cpp
-     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\assignment 1\chugeint.cpp(51): warning C4018: '<' : signed/unsigned mismatch
-         Generating Code...
-     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\assignment 1\chugeint.cpp(813): warning C4715: 'CHugeInt::operator/' : not all control paths return a value
+     1>Done Building Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Assignment 1\Assignment 1.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.75

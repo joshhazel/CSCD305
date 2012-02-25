@@ -1,5 +1,5 @@
-﻿Build started 2/17/2012 6:56:05 AM.
-     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes Online CFraction\Notes Online CFraction.vcxproj" on node 3 (rebuild target(s)).
+﻿Build started 2/23/2012 9:49:52 PM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes Online CFraction\Notes Online CFraction.vcxproj" on node 2 (rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "Debug\Notes Online CFraction.lastbuildstate".
        InitializeBuildStatus:
@@ -83,4 +83,4 @@
 
 Build FAILED.
 
-Time Elapsed 00:00:00.43
+Time Elapsed 00:00:00.64

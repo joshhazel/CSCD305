@@ -1,12 +1,33 @@
-﻿Build started 2/17/2012 8:21:28 AM.
-     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes Online Advanced Inheritance\Notes Online Advanced Inheritance.vcxproj" on node 3 (rebuild target(s)).
+﻿Build started 2/24/2012 9:09:32 PM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes Online Advanced Inheritance\Notes Online Advanced Inheritance.vcxproj" on node 4 (rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "Debug\Notes Online Advanced Inheritance.lastbuildstate".
        InitializeBuildStatus:
-         Touching "Debug\Notes Online Advanced Inheritance.unsuccessfulbuild".
+         Creating "Debug\Notes Online Advanced Inheritance.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt advancedTester.cpp Base.cpp Y.cpp
          Y.cpp
      1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online advanced inheritance\y.cpp(52): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
          Base.cpp
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online advanced inheritance\base.cpp(7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\notes online advanced inheritance\base.cpp(33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         advancedTester.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Notes Online Advanced Inheritance.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Notes Online Advanced Inheritance.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Notes Online Advanced Inheritance.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Notes Online Advanced Inheritance.lib" /MACHINE:X86 Debug\advancedTester.obj
+         Debug\Base.obj
+         Debug\Y.obj
+         Notes Online Advanced Inheritance.vcxproj -> C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Notes Online Advanced Inheritance.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Notes Online Advanced Inheritance.exe;#1" /manifest "Debug\Notes Online Advanced Inheritance.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Notes Online Advanced Inheritance.unsuccessfulbuild".
+         Touching "Debug\Notes Online Advanced Inheritance.lastbuildstate".
+     1>Done Building Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes Online Advanced Inheritance\Notes Online Advanced Inheritance.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.60
