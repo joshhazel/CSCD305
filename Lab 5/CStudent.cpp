@@ -6,9 +6,8 @@ CStudent::CStudent()
 }
 CStudent::CStudent(string name, int id, string color)
 {
-	this->name.first = name.substr(0, name.find(", "));
-	this->name.second = name.substr(name.find(", "), name.length());
-//cout<<this->name.first<<" "<<this->name.second<<endl;
+	this->name.first = name.substr(name.find(", ")+2, name.length());
+	this->name.second = name.substr(0, name.find(", "));
 	this->id = id;
 	this->color = color;
 }
@@ -20,7 +19,7 @@ CStudent::~CStudent(void)
 
 CStudent & CStudent::operator=(const CStudent & rhs)
 {
-	if(this != &rhs) //use this make sure you dont create a Carray C, then do C=C
+	if(this != &rhs) 
 	{
 		this->name = rhs.name;
 		this->id = rhs.id;
@@ -29,7 +28,7 @@ CStudent & CStudent::operator=(const CStudent & rhs)
 	return *this;
 }
 
-bool CStudent::operator<(const CStudent & rhs)const
+bool CStudent::operator<(const CStudent & rhs)
 {
 	if(this->name.second.compare(rhs.name.second) < 0 )
 		return true;
@@ -53,7 +52,7 @@ ostream &operator<<(ostream & out, const CStudent & rhs)
 	return out;
 }
 
- istream & operator>>(istream & fin, CStudent & rhs)
+ifstream & operator>>(ifstream & fin, CStudent & rhs)
  {
 	string name;
 	string color;
@@ -66,3 +65,27 @@ ostream &operator<<(ostream & out, const CStudent & rhs)
 
 	return fin;
  }
+string CStudent::getName()
+{
+	return this->name.first + " " + this->name.second;
+}
+
+int CStudent::getID()
+{
+	return this->id;
+}
+
+string CStudent::getColor()
+{
+	return this->color;
+}
+
+string CStudent::getFName()
+{
+	return this->name.first;
+}
+
+string CStudent::getLName()
+{
+	return this->name.second;
+}

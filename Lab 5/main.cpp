@@ -2,14 +2,15 @@
 #pragma warning (disable :4018)
 #include "CStudent.h"
 #include "FileUtil.h"
-#include <algorithm>  
+//#include <algorithm>  
 
 CStudent readFile(ifstream& fin);
 void menu(ofstream & fout);
 void displayMenu();
 void findColor();
 void writeFile(ofstream & fout);
-void sortVector(); //vector<CStudent> & students
+void sortVector(); 
+void printVector();
 
 vector<CStudent> students;
 
@@ -21,24 +22,19 @@ int main()
 
 	//Read file
 	while(! fin.eof() )
+//		CStudent temp("name",1,"color");
+//		fin >> temp;
+//		students.push_back(temp); //Add each student
 		students.push_back( readFile(fin) ); //Add each student
 
-	//Create iterator
-	vector<CStudent>::iterator it;
-
 	//Print before sort
-	cout<<endl<<"After sort"<<endl;
-	for (it = students.begin(); it < students.end(); it++ )
-		cout << *it;
+	printVector();
 
 	//Sort vector
 	sortVector();
 
 	//Print after sort
-	cout<<endl<<"After sort"<<endl;
-	for (it = students.begin(); it < students.end(); it++ )
-		cout << *it;
-
+	printVector();
 
 	//Menu
 	menu(fout);
@@ -93,28 +89,68 @@ void displayMenu()
 
 void findColor()
 {
-	cout<<"find color"<<endl;
+	//Variables
+	string color; bool found = false;
+
+	//Get color
+	cout << endl << "What color to search for? ";
+	getline(cin,color);
+	cout << endl;
+
+	//Loop through students
+	for(int i = 0; i < students.size(); i++)
+	{
+		if(students.at(i).getColor().compare(color) == 0)
+		{
+			found = true; //color was found flag
+			cout << students.at(i).getName() << endl;
+			cout << students.at(i).getID() << endl;
+		}
+	}
+
+	//Indicate when no color found
+	if(!found)
+		cout << "No entry for that color." << endl;
 }
 
 void writeFile(ofstream & fout)
 {
-	cout<<"write file"<<endl;
+	cout<< endl << "Students written to file." << endl;
+
+	//Loop through students
+	for(int i = 0; i < students.size(); i++)
+	{
+		fout << students.at(i).getLName() << ", " << students.at(i).getFName() << endl;
+		fout << students.at(i).getID() << endl;
+		fout << students.at(i).getColor() << endl;
+	}
 }
 
 void sortVector() //vector<CStudent> & students
 {
 	cout<<"sort vector"<<endl;
-	sort(students.begin(),students.end());/*
+	//sort(students.begin(),students.end()); /*
 	for(int i = 0; i < students.size(); i ++)
 	{
-		for(int j = i; j < students.size()-1; j++)
+		for(int j = 1; j < students.size()- i; j++)
 		{
-			if(students.at(j) < students.at(j+1))
+			if(students.at(j) < students.at(j-1)) //marley < jones = false
 			{
 				CStudent temp(students.at(j));
-				students.at(j) = students.at(j+1);
-				students.at(j+1) = temp;
+				students.at(j) = students.at(j-1);
+				students.at(j-1) = temp;
 			}
 		}
-	}*/
+	}//*/
+}
+
+void printVector()
+{
+	//Create iterator
+	vector<CStudent>::iterator it;
+
+	cout<<endl<<"After sort"<<endl;
+	for (it = students.begin(); it < students.end(); it++ )
+		cout << *it;
+
 }

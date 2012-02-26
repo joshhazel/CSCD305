@@ -8,12 +8,18 @@ public:
 	CStudent();
 	explicit CStudent(string, int, string);
 	~CStudent();
-	friend bool operator<(const CStudent & rhs)const;
+	bool operator<(const CStudent & rhs);
 	CStudent& operator=(const CStudent & rhs);
+	string getName();
+	int getID();
+	string getColor();
+	string getFName();
+	string getLName();
+
 
 
 	friend ostream & operator<<(ostream & out, const CStudent & rhs);
-	friend istream & operator>>(ostream & in, CStudent & rhs);
+	friend ifstream & operator>>(ifstream & in, CStudent & rhs);
 
 private:
 	pair<string,string> name;

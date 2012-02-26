@@ -1,0 +1,42 @@
+johnson, jan
+7
+purple
+johnson, john
+3
+blue
+johnson, john
+6
+purple
+jones, jack
+1
+red
+kerry, john
+4
+red
+marley, bob
+2
+green
+wilson, george
+5
+green
+johnson, jan
+7
+purple
+johnson, john
+3
+blue
+johnson, john
+6
+purple
+jones, jack
+1
+red
+kerry, john
+4
+red
+marley, bob
+2
+green
+wilson, george
+5
+green
