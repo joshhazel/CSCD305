@@ -22,11 +22,12 @@ int main()
 
 	//Read file
 	while(! fin.eof() )
-//		CStudent temp("name",1,"color");
-//		fin >> temp;
-//		students.push_back(temp); //Add each student
+	{
+		CStudent temp("name",1,"color");
+		fin >> temp;
+		students.push_back(temp); //Add each student
 		students.push_back( readFile(fin) ); //Add each student
-
+	}
 	//Print before sort
 	printVector();
 
