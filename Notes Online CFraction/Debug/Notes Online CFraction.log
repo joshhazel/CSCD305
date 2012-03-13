@@ -1,8 +1,6 @@
-﻿Build started 2/23/2012 9:49:52 PM.
-     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes Online CFraction\Notes Online CFraction.vcxproj" on node 2 (rebuild target(s)).
-     1>_PrepareForClean:
-         Deleting file "Debug\Notes Online CFraction.lastbuildstate".
-       InitializeBuildStatus:
+﻿Build started 2/29/2012 8:56:16 PM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes Online CFraction\Notes Online CFraction.vcxproj" on node 4 (rebuild target(s)).
+     1>InitializeBuildStatus:
          Touching "Debug\Notes Online CFraction.unsuccessfulbuild".
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CFraction.cpp FractionTester.cpp
@@ -83,4 +81,4 @@
 
 Build FAILED.
 
-Time Elapsed 00:00:00.64
+Time Elapsed 00:00:00.46

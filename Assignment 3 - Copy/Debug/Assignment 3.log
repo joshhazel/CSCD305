@@ -1,0 +1,34 @@
+﻿Build started 3/5/2012 10:48:53 AM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Assignment 3\Assignment 3.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Assignment 3.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Assignment 3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Customer.cpp FileUtil.cpp LinkedList.cpp main.cpp Node.cpp Order.cpp
+         Order.cpp
+         Node.cpp
+         main.cpp
+         LinkedList.cpp
+         FileUtil.cpp
+         Customer.cpp
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\assignment 3\customer.cpp(47): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Assignment 3.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Assignment 3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Assignment 3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Assignment 3.lib" /MACHINE:X86 Debug\Customer.obj
+         Debug\FileUtil.obj
+         Debug\LinkedList.obj
+         Debug\main.obj
+         Debug\Node.obj
+         Debug\Order.obj
+         Assignment 3.vcxproj -> C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Assignment 3.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Assignment 3.exe;#1" /manifest "Debug\Assignment 3.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Assignment 3.unsuccessfulbuild".
+         Touching "Debug\Assignment 3.lastbuildstate".
+     1>Done Building Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Assignment 3\Assignment 3.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.55

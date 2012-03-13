@@ -19,7 +19,7 @@ public:
 
 
 	friend ostream & operator<<(ostream & out, const CStudent & rhs);
-	friend ifstream & operator>>(ifstream & in, CStudent & rhs);
+	friend ifstream & operator>>(ifstream & fin, CStudent & rhs);
 
 private:
 	pair<string,string> name;

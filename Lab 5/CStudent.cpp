@@ -60,8 +60,14 @@ ifstream & operator>>(ifstream & fin, CStudent & rhs)
 	
 	getline(fin, name); //get lname, fname
 	fin >> id; //get id
-	getline(fin,color);
+	//getline(fin,color);
+	fin.ignore(255,'\n');
 	getline(fin,color); //get color
+
+	rhs.name.first = name.substr(name.find(", ")+2, name.length());
+	rhs.name.second = name.substr(0, name.find(", "));
+	rhs.id = id;
+	rhs.color = color;
 
 	return fin;
  }

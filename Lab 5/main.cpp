@@ -17,24 +17,28 @@ vector<CStudent> students;
 int main() 
 {
 	//Open input/output file
+	cout << endl << "Reading file..." << endl;
 	ifstream fin = openInput("students.txt");
 	ofstream fout = openOutput("studentsOut.txt");
 
 	//Read file
+	cout << endl << "Loading data into vector..." << endl;
 	while(! fin.eof() )
-//		CStudent temp("name",1,"color");
-//		fin >> temp;
-//		students.push_back(temp); //Add each student
-		students.push_back( readFile(fin) ); //Add each student
+	{
+//		students.push_back( readFile(fin) ); //Add each student
+		CStudent temp("name",1,"color");
+		fin >> temp;
+		students.push_back(temp); //Add each student
+	}
 
-	//Print before sort
-	printVector();
+	
+//	printVector();  //Print before sort
 
 	//Sort vector
+	cout << endl << "sorting vector..." << endl;
 	sortVector();
 
-	//Print after sort
-	printVector();
+//	printVector();  //Print before sort
 
 	//Menu
 	menu(fout);
@@ -47,7 +51,7 @@ int main()
 	return 0;
 }//end main
 
-CStudent readFile(ifstream &fin)
+CStudent readFile(ifstream &fin)  //Same as the >> ifstream overload
 {
 	string name;
 	string color;
@@ -128,7 +132,6 @@ void writeFile(ofstream & fout)
 
 void sortVector() //vector<CStudent> & students
 {
-	cout<<"sort vector"<<endl;
 	//sort(students.begin(),students.end()); /*
 	for(int i = 0; i < students.size(); i ++)
 	{
@@ -152,5 +155,6 @@ void printVector()
 	cout<<endl<<"After sort"<<endl;
 	for (it = students.begin(); it < students.end(); it++ )
 		cout << *it;
+	//sort(students.begin(),students.end()); /*
 
 }

@@ -1,9 +1,9 @@
-﻿Build started 2/23/2012 9:49:55 PM.
-     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes CFraction In Class v3\Notes CFraction In Class v3.vcxproj" on node 5 (rebuild target(s)).
+﻿Build started 2/29/2012 5:12:54 PM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes CFraction In Class v3\Notes CFraction In Class v3.vcxproj" on node 2 (clean target(s)).
      1>_PrepareForClean:
          Deleting file "Debug\Notes CFraction In Class v3.lastbuildstate".
-       InitializeBuildStatus:
-         Creating "Debug\Notes CFraction In Class v3.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CFraction.cpp main.cpp
-         main.cpp
+     1>Done Building Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Notes CFraction In Class v3\Notes CFraction In Class v3.vcxproj" (clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.13

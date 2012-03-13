@@ -1,0 +1,26 @@
+﻿Build started 3/5/2012 9:17:57 AM.
+     1>Project "C:\Users\ssteiner\Desktop\2011-2012\Winter_12\working\cscd305\misc\misc.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\misc.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SortTester.cpp
+         SortTester.cpp
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ssteiner\Desktop\2011-2012\Winter_12\working\cscd305\misc\Debug\misc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\misc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ssteiner\Desktop\2011-2012\Winter_12\working\cscd305\misc\Debug\misc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ssteiner\Desktop\2011-2012\Winter_12\working\cscd305\misc\Debug\misc.lib" /MACHINE:X86 Debug\misc.exe.embed.manifest.res
+         Debug\SortTester.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\misc.exe.embed.manifest" /manifest Debug\misc.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         misc.vcxproj -> C:\Users\ssteiner\Desktop\2011-2012\Winter_12\working\cscd305\misc\Debug\misc.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\misc.unsuccessfulbuild".
+         Touching "Debug\misc.lastbuildstate".
+     1>Done Building Project "C:\Users\ssteiner\Desktop\2011-2012\Winter_12\working\cscd305\misc\misc.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.32

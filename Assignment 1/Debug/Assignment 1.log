@@ -1,9 +1,12 @@
-﻿Build started 2/24/2012 9:09:43 PM.
-     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Assignment 1\Assignment 1.vcxproj" on node 4 (rebuild target(s)).
-     1>_PrepareForClean:
-         Deleting file "Debug\Assignment 1.lastbuildstate".
-     1>Done Building Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Assignment 1\Assignment 1.vcxproj" (rebuild target(s)) -- FAILED.
+﻿Build started 3/13/2012 8:49:46 AM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Assignment 1\Assignment 1.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Assignment 1.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CHugeInt.cpp main.cpp
+         main.cpp
+     1>Done Building Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Assignment 1\Assignment 1.vcxproj" (build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:00.75
+Time Elapsed 00:00:01.52
